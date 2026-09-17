@@ -1,15 +1,15 @@
 /* ==========================================================================
-   CREESTONVIEW - MASTER OVERRIDES & GALLERY LINK BLOCKING
+   SKYRISE - MASTER OVERRIDES & GALLERY LINK BLOCKING
    ========================================================================== */
 
 :root {
-    --primary-color: #dc2626 !important;
+    --primary-color: #f59e0b !important;
     --secondary-color: #111111 !important;
-    --accent-color: #dc2626 !important;
-    --pxl-primary-color: #dc2626 !important;
+    --accent-color: #f59e0b !important;
+    --pxl-primary-color: #f59e0b !important;
     --pxl-secondary-color: #111111 !important;
-    --wp--preset--color--luminous-vivid-orange: #dc2626 !important;
-    --wp--preset--color--vivid-red: #dc2626 !important;
+    --wp--preset--color--luminous-vivid-orange: #f59e0b !important;
+    --wp--preset--color--vivid-red: #f59e0b !important;
 }
 
 /* 1. Recuadro del Logotipo: Fondo a Negro (#000000) */
@@ -40,7 +40,7 @@ img[src*="logo"] {
     filter: none !important;
 }
 
-/* 2 & 3. Botones "Cotizar Ahora" y "Consulta y Cotiza": Fondo Rojo (#dc2626) */
+/* 2 & 3. Botones "Cotizar Ahora" y "Consulta y Cotiza": Fondo Rojo (#f59e0b) */
 .pxl-button a,
 .btn,
 .btn-default,
@@ -54,9 +54,9 @@ a[href*="mailto"],
 a[class*="btn"],
 .pxl-button,
 .elementor-button-wrapper a {
-    background-color: #dc2626 !important;
-    background: #dc2626 !important;
-    border-color: #dc2626 !important;
+    background-color: #f59e0b !important;
+    background: #f59e0b !important;
+    border-color: #f59e0b !important;
     color: #ffffff !important;
 }
 
@@ -65,9 +65,9 @@ a[class*="btn"],
 .btn-default:hover,
 .elementor-button:hover,
 a[href*="mailto"]:hover {
-    background-color: #b91c1c !important;
-    background: #b91c1c !important;
-    border-color: #b91c1c !important;
+    background-color: #d97706 !important;
+    background: #d97706 !important;
+    border-color: #d97706 !important;
     color: #ffffff !important;
 }
 
@@ -100,7 +100,7 @@ div[class*="pxl-tabs"],
     background: #111111 !important;
 }
 
-/* 5. Iconos de dirección en pie de página (Pin, WhatsApp, Email): Rojo (#dc2626) */
+/* 5. Iconos de dirección en pie de página (Pin, WhatsApp, Email): Rojo (#f59e0b) */
 .pxl-icon-box .pxl-item--icon,
 .pxl-icon-box .pxl-item--icon i,
 .pxl-icon-box i,
@@ -119,8 +119,8 @@ i.fa-envelope,
 footer i,
 .elementor-widget-pxl_icon_box i,
 .pxl-item--icon {
-    color: #dc2626 !important;
-    fill: #dc2626 !important;
+    color: #f59e0b !important;
+    fill: #f59e0b !important;
 }
 
 /* 6. EFECTO DEL RATÓN (CURSOR): Círculo Semitransparente Rojo Perfecto */
@@ -138,16 +138,16 @@ footer i,
 .pxl-js-follower,
 .pxl-cursor-follower {
     border-radius: 50% !important;
-    background-color: rgba(220, 38, 38, 0.4) !important;
-    border: 1px solid rgba(220, 38, 38, 0.7) !important;
+    background-color: rgba(245, 158, 11, 0.4) !important;
+    border: 1px solid rgba(245, 158, 11, 0.7) !important;
     box-shadow: none !important;
 }
 
 .pxl-cursor--cta,
 .pxl-cursor--cta.style-box {
     border-radius: 50% !important;
-    background-color: rgba(220, 38, 38, 0.35) !important;
-    border: 1px solid #dc2626 !important;
+    background-color: rgba(245, 158, 11, 0.35) !important;
+    border: 1px solid #f59e0b !important;
     box-shadow: none !important;
 }
 
@@ -170,15 +170,15 @@ footer i,
 .pxl-scroll-top i,
 a.pxl-scroll-top,
 .pxl-scroll-top span {
-    background-color: #dc2626 !important;
-    background: #dc2626 !important;
-    border-color: #dc2626 !important;
+    background-color: #f59e0b !important;
+    background: #f59e0b !important;
+    border-color: #f59e0b !important;
     color: #ffffff !important;
 }
 
 .pxl-scroll-top:hover,
 #pxl-scroll-top:hover {
-    background-color: #b91c1c !important;
+    background-color: #d97706 !important;
 }
 
 /* 9. Reglas de captura general para cualquier fondo o texto naranja */
@@ -203,5 +203,5 @@ a.pxl-scroll-top,
 [style*="color: #f55b14"],
 [style*="color: #ea5703"],
 [style*="color: #e55715"] {
-    color: #dc2626 !important;
+    color: #f59e0b !important;
 }
